@@ -1,0 +1,10 @@
+h2 {
+    background-color: #faedcd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 65vw;
+    height: 80vh;
+    color: white
+}
