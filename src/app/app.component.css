@@ -1,12 +1,4 @@
-::ng-deep * {
+/* ::ng-deep * {
     margin: 0;
     padding: 0;
-}
-
-.layout {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex: 1;
-    margin: 0;
-}
+} */

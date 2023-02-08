@@ -1,6 +1,7 @@
-<app-header></app-header>
-<div class="layout">
-    <app-navigation></app-navigation>
-    <app-body></app-body>
-</div>
-<app-copyright></app-copyright>
+<h1>Day 2</h1>
+
+<input type="text" [(ngModel)]="value">
+<p>{{ value }}</p>
+<button [disabled]="buttonDisabled" (click)="handleOnChange()">
+    click me!
+</button>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { flatMap } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'My Angular App';
+  value = "";
+  buttonDisabled = false;
+
+  handleOnChange ( ) {
+    if (this.value === 'submitted') {
+      this.buttonDisabled = true;
+    }
+  }
 }
